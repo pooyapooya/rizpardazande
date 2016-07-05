@@ -1,4 +1,5 @@
 from easygui.boxes.choice_box import choicebox
+from easygui.boxes.text_box import textbox
 from phase1 import phase1
 from phase2 import phase2
 

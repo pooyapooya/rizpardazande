@@ -15,8 +15,7 @@ def phase2():
 		millivolts= float((rawvoltage/1024.0) * 5000.0)
 		celsius = (millivolts)/10.0
 		tempf = (celsius * 9)/5 + 32
-		msgbox('degrees Celsius: {}'.format(celsius))
-		msgbox('degrees Fahrenheit: {}'.format(tempf))
+		msgbox('degrees Celsius: {}\n degrees Fahrenheit: {}'.format(celsius, tempf))
 		lcd.setCursor(0, 0)
 		lcd.printString(celsius)
 		lcd.setCursor(0, 1)
