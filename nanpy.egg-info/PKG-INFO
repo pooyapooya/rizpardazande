@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nanpy
+Version: 0.8
+Summary: Use your Arduino board with Python
+Home-page: http://github.com/nanpy/nanpy
+Author: Andrea Stagi
+Author-email: stagi.andrea@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: arduino library prototype
+Platform: UNKNOWN
